@@ -1,4 +1,3 @@
-
 select h.hacker_id, h.name, sum(score) as total_score
 from
 hackers as h inner join
